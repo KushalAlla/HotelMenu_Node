@@ -2,7 +2,6 @@ const mariadb = require('mariadb');
 
 // Create a connection pool
 var pool = mariadb.createPool({
-    //host: '192.168.2.15',       // Database host (use IP or domain if remote)
     host:'',   /MariaDB IP
     port : ,  /MariaDB port
     user: '',    // MariaDB username
